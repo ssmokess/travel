@@ -1,0 +1,25 @@
+//search
+.search{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 100vh;
+    background-color: #333333;
+    
+
+    a{
+        
+        font-family: $font-Aleo;
+        font-size: 36px;
+        margin-bottom: 120px;
+        margin-top: 33px;
+
+    }
+}
+.img-block{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}

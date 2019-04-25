@@ -1,0 +1,57 @@
+//tourist
+.tourist{
+    min-height: 100vh;
+    text-align: center;
+    align-items: center;
+    background-image: url(/img/tourist_bg.png);
+    background-color: #2c2e2e;
+    color:$color-white;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    
+    &__feed img{
+        // display: -moz-inline-grid;
+        float: left;
+        
+        // height: 284px;
+        background-color: #333333;
+    }
+    h2{
+        font-family: $font-Aleo;
+        padding: 30px;
+    }
+     h3{
+        text-align: left;
+     }
+    
+}
+footer{
+    text-align: center;
+    font-family: font-Josefin;
+    color:$color-white;     
+    background-color: #232323;
+    padding-top: 120px;
+
+    p{
+        font-family: $font-Josefin;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+}
+
+footer h2{
+    font-family: $font-Josefin;
+    text-transform: uppercase;
+}
+footer i{
+    margin-top: 15px;
+    margin-right: 20px;
+
+    
+}
+footer i:hover{
+    color:#5474fd;
+    transition: 0.2s;
+}
