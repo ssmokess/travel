@@ -9,6 +9,8 @@
     
 
     &__logo{
+        display: flex;
+        flex-direction: row;
         font-family: $font-Josefin;
         font-size: 24px;
         font-weight: 700;
@@ -20,9 +22,16 @@
     
     &__elements li {
 
-        display: inline-block;
+        display: inline;
         list-style-type:none;
         text-transform: uppercase;
+        margin: 50px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    &__elements li:first-child{
+        margin-left: 100px;
     }
     &__elements li:not(:last-child) {
         margin-right: 43px;
